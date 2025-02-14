@@ -5,7 +5,7 @@ package ML::PCA;
 use List::Util qw(zip);
 use Storable qw(dclone);
 use ML::Util qw(transpose print_2d_array add_2_arrays diagonal_matrix matmul);
-use lib '/home/mvine/ownCloud/perl_ml_relu';
+use lib '.';
 use ML::MVKernels;
 
 use Data::Dumper;
