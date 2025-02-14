@@ -1,0 +1,9 @@
+void run_matmul(std::vector<float> A, // will be float * when complete...
+                std::vector<float> B, // will be float * when complete...
+                std::vector<float> *C, // will be float * when complete...
+                const unsigned int a_rows,
+                const unsigned int a_cols,
+                const unsigned int b_cols
+               ); 
+               
+
