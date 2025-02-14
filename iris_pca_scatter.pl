@@ -1,7 +1,7 @@
 use Modern::Perl;
 use Text::CSV qw(csv);
 use Data::Dumper;
-use lib '/home/mvine/ownCloud/perl_ml_relu';
+use lib '.';
 use ML::Util qw(print_2d_array);
 use ML::PCA;
 use ML::KMeans;
